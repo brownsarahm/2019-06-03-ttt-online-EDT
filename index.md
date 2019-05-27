@@ -108,6 +108,8 @@ locations:
 
 This is an online event. We will meet using the online videoconference software Zoom. You will need to <a href="https://zoom.us/download">download and install their client</a> to connect with your instructors. The link to use for this event is <{{ loc.address }}>.
 
+We will use an [etherpad](https://pad.carpentries.org/019-06-03-ttt-online-EDT) to share links and work collaboratively. 
+
 {% else %}
 {% assign inperson = "true" %}
 {{ loc.address }} {% if loc.latlng %} Get directions with
